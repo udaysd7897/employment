@@ -1,0 +1,49 @@
+{
+  "mappings":{
+    "properties":{
+      "employer":{
+        "type":"text",
+        "fields":{
+          "keyword":{
+            "type":"keyword",
+            "ignore_above":256
+          }
+        }
+      },
+      "gender":{
+        "type":"text",
+        "fields":{
+          "keyword":{
+            "type":"keyword",
+            "ignore_above":256
+          }
+        }
+      },
+      "location":{
+        "type":"text",
+        "fields":{
+          "keyword":{
+            "type":"keyword",
+            "ignore_above":256
+          }
+        }
+      },
+      "salary":{
+        "type":"float"
+      },
+      "timestamp":{
+        "type": "date",
+        "format": "MM/dd/yyyy HH:mm:ss"
+      },
+      "title":{
+        "type":"text",
+        "fields":{
+          "keyword":{
+            "type":"keyword",
+            "ignore_above":256
+          }
+        }
+      }
+    }
+  }
+}
